@@ -1,7 +1,7 @@
 import numpy as np
 
 print("start")
-with open("data.txt", "r") as file:
+with open("day1.txt", "r") as file:
     DATA =  file.read().strip().splitlines()
 pairlist=list(map(str.split, DATA))
 
@@ -23,4 +23,9 @@ for left in distance1:
             same+=1
     similar_score+=same*int(left)
 
-print(similar_score)
+cum=0
+for i in range(len(distance1)):
+    cum+=abs(int(distance1[i])-int(distance2[i]))
+
+print(f"similar_score: {similar_score}")
+print(f"cum: {cum}")
