@@ -1,7 +1,7 @@
 import numpy as np
 
 print("start")
-with open("day1.txt", "r") as file:
+with open("data/day1.txt", "r") as file:
     DATA =  file.read().strip().splitlines()
 pairlist=list(map(str.split, DATA))
 

@@ -1,5 +1,5 @@
 print("start")
-with open("day2.txt", "r") as file:
+with open("data/day2.txt", "r") as file:
     DATA =  file.read().strip().splitlines()
 #rapports=list(map(str.split, DATA))
 rapports = [list(map(int, line.split())) for line in DATA]
