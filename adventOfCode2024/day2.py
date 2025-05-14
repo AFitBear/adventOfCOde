@@ -1,4 +1,8 @@
+import os
+
+print(os.getcwd())
 print("start")
+
 with open("data/day2.txt", "r") as file:
     DATA =  file.read().strip().splitlines()
 #rapports=list(map(str.split, DATA))
