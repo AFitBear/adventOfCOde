@@ -1,0 +1,2 @@
+wget --no-cookies --header "Cookie: session=12345678789ewfewbjk314159265orsomething" https://adventofcode.com/2015/day/1/input
+replace session="HERE" with the session id. (you can find you session from looking at you cookies. TASTY!!!!)
