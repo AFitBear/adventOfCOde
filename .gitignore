@@ -1,1 +1,3 @@
 .vscode
+/adventOfCode20*/day*/*.txt
+/adventOfCode20*/day*/a.out
