@@ -10,6 +10,7 @@ int main(void){
     printf("start of day2\n");
 
     int cumm = 0;
+    int ribCumm = 0;
 
     FILE *fptr;
     char ch;
@@ -39,10 +40,12 @@ int main(void){
 
     cumm+=(2*l*w + 2*w*h + 2*h*l)+lenghts[0]*lenghts[1];
 
+    ribCumm+=((l*w*h)+(lenghts[0]*2+lenghts[1]*2));
+
     }
 
-    printf("%i",cumm);
+    printf("%i\n",cumm);
 
-
-   // qsort(void *base, size_t nmemb, size_t size, __compar_fn_t compar)
+    printf("ribbon: %i\n",ribCumm);
+    
 }
